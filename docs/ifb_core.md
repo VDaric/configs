@@ -14,7 +14,8 @@ srun --pty bash
 
 ## Load Nextflow and Singularity environment modules
 module purge
-module load nextflow/20.04.1
+module load java-jdk/8.0.112
+module load nextflow/21.04.0
 
 # Run a downloaded/git-cloned nextflow workflow from
 nextflow run \\
